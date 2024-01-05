@@ -1,5 +1,6 @@
 {
   "name": "storybook-sass-deployment",
+  "homepage": "https://alexmkio.github.io/storybook-sass-deployment/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
