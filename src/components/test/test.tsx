@@ -6,14 +6,6 @@ export default function Test() {
   return (
     <>
       <p>This works:</p>
-      <Image
-        src="/assets/images/next.svg"
-        alt="Next.js Logo"
-        width={180}
-        height={37}
-        priority
-      />
-      <p>And this works:</p>
       <div
         className={styles.logo}
         style={{
@@ -22,6 +14,14 @@ export default function Test() {
       />
       <p>But this doesn't:</p>
       <div className={styles.badLogo} />
+      <p>And neither does this (although not my main objective):</p>
+      <Image
+        src="/assets/images/next.svg"
+        alt="Next.js Logo"
+        width={180}
+        height={37}
+        priority
+      />
     </>
   );
 }
