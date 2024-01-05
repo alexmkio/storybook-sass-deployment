@@ -1,4 +1,4 @@
-This is the minimal reproduction for an issue I am having when deploying the Storybook of a Next.js application which is using Sass. The issue relates to image paths not being accurate in the deployment is they are referenced in the sass modules using relative paths to the public folder; `background-image: url('/assets/images/image.jpg')`.
+This is the minimal reproduction for an issue I am having when deploying the Storybook of a Next.js application that is using Sass. The issue relates to image paths not being accurate in the deployment if they are referenced in the sass modules using relative paths to the public folder; `background-image: url('/assets/images/image.jpg')`.
 
 The ticket can be found here: https://github.com/storybookjs/storybook/discussions/25482
 
