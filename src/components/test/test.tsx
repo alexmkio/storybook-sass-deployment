@@ -12,6 +12,8 @@ export default function Test() {
           backgroundImage: `url(${nextLogo.src})`,
         }}
       />
+
+      <Image src={nextLogo} alt="Next.js Logo" />
       <p>But this doesn't:</p>
       <div className={styles.badLogo} />
       <p>And neither does this (although not my main objective):</p>
