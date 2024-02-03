@@ -9,3 +9,6 @@ The Next.js deployment can be found here: https://storybook-sass-deployment.verc
 I am following the documentation for using [Sass](https://storybook.js.org/recipes/sass), [serving static files](https://storybook.js.org/docs/configure/images-and-assets#serving-static-files-via-storybook-configuration), [deploying to GitHub Pages](https://storybook.js.org/docs/sharing/publish-storybook#github-pages), and [deploying to a subpath](https://storybook.js.org/docs/configure/images-and-assets#absolute-versus-relative-paths).
 
 What am I missing?
+
+Update / Resolution (Feb 03, 2024):
+Realized I wasn't using the [recommended method for Next.js](https://nextjs.org/docs/app/building-your-application/optimizing/images#local-images) which involves using their Image component and importing local assets into the component.
